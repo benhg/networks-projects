@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speed Reader</title>
+	<link rel="stylesheet" type="text/css" href="speedreader.css">
+	<meta charset="utf-8">
+	<!-- <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> -->
+	<script  src="speedreader.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<div id = "main">
+	<h1>Speed Reader</h1>
+	<div id = "panel"></div>
+	
+	<div id="controls">
+		<div id="play">
+			<h3>Play Controls:</h3>
+			<hr>
+			<button id="submit">Read</button>
+			<button id="pause">Pause</button>
+		</div>
+		<div id="speed1">
+			<h3>Speed:</h3>
+			<hr>
+			<select id = "speed">
+				<option value="300">200 WPM</option>
+				<option value="200">300 WPM</option>
+				<option value="150">400 WPM</option>
+				<option value="120">500 WPM</option>
+				<option value="100">600 WPM</option>
+				<option value="85.71">700 WPM</option>
+				<option value="75">800 WPM</option>
+				<option value="66.67">900 WPM</option>
+				<option value="60">1000 WPM</option>
+			</select>
+		</div>
+		<div class="size">
+			<h3>Size:</h3>
+			<hr>
+			<form action="#" id='sizeForm'>
+  				<input type="radio" name="size" value="medium" checked='checked' id="size_med" onclick='resize()'> Medium
+  				<input type="radio" name="size" value="big" id="size_big" onclick="resize
+  				()"> Big
+ 				<input type="radio" name="size" value="bigger" id="size_bigger" onclick="resize()"> Bigger
+			</form>
+		</div>
+	</div>
+
+	<br>
+	<div id='inputArea' >
+		<h3>Input Text</h3>
+		<hr>
+		<textarea id = "input"></textarea><br>
+	</div>
+	
+
+	<br>
+	<div id='w3c'>
+		<a href='https://webster.cs.washington.edu/validate-html.php'><img src='https://webster.cs.washington.edu/images/w3c-html-blue.png' alt="HTML"></a>
+		<a href='https://webster.cs.washington.edu/validate-css.php'><img src='https://webster.cs.washington.edu/images/w3c-css-blue.png' alt="CSS"></a>
+		<a href='https://webster.cs.washington.edu/jslint/?referer'><img src='https://webster.cs.washington.edu/images/w3c-js-blue.png' alt="JS"></a>
+	</div>
+	
+
+</div>
+
+
+
+
+
+</body>
+</html>

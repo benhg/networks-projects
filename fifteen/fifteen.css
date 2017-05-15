@@ -1,0 +1,30 @@
+.piece{
+	width:100px;
+	height:100px;
+	display:block;
+	border-width:3px;
+	border-style:solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 32pt;
+	font-family:sans-serif;
+	line-height: 100px;
+	box-sizing: border-box;
+	background-image: url(jens.jpg.jpg);
+	position:relative;
+	transition: all 0.2s ease;
+}
+.piece:hover{
+	color:red;
+	border-color:red;
+}
+#puzzlearea{
+	width:400px;
+	height:400px;
+	text-align: left;
+	position:relative;
+	margin:0 auto;
+}
+body{
+	text-align: center;
+}
